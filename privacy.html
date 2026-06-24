@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - HourTracker</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue: #2196F3;
+      --blue-dark: #1976D2;
+      --dark: #1a1a2e;
+      --darker: #0f0f1e;
+      --gray: #64748b;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'DM Sans', sans-serif; color: #333; background: #fff; }
+
+    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 16px 24px; display: flex; justify-content: space-between; align-items: center; background: rgba(15,15,30,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .nav-logo { font-family: 'Outfit', sans-serif; font-size: 1.3rem; font-weight: 700; color: #fff; text-decoration: none; }
+    .nav-logo span { color: var(--blue); }
+    .nav-links { display: flex; gap: 24px; }
+    .nav-links a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: #fff; }
+
+    .privacy-header {
+      background: linear-gradient(135deg, var(--dark) 0%, #16213e 100%);
+      color: #fff; padding: 120px 20px 50px; text-align: center;
+    }
+    .privacy-header h1 { font-family: 'Outfit', sans-serif; font-size: 2.5rem; font-weight: 800; margin-bottom: 8px; }
+    .privacy-header p { color: rgba(255,255,255,0.6); font-size: 0.95rem; }
+
+    .privacy-content { max-width: 750px; margin: 0 auto; padding: 50px 24px 80px; }
+    .privacy-content h2 { font-family: 'Outfit', sans-serif; font-size: 1.4rem; font-weight: 700; color: var(--dark); margin-top: 36px; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0; }
+    .privacy-content h2:first-child { margin-top: 0; }
+    .privacy-content p { color: #555; line-height: 1.8; margin-bottom: 14px; font-size: 0.95rem; }
+
+    footer { background: var(--darker); color: rgba(255,255,255,0.5); text-align: center; padding: 32px 20px; font-size: 0.85rem; }
+    footer a { color: var(--blue); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .nav-links { display: none; }
+      .privacy-header { padding: 100px 20px 40px; }
+      .privacy-header h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">⏱️ Hour<span>Tracker</span></a>
+  <div class="nav-links">
+    <a href="index.html#features">Features</a>
+    <a href="index.html#how">How It Works</a>
+    <a href="index.html#download">Download</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+</nav>
+
+<section class="privacy-header">
+  <h1>Privacy Policy</h1>
+  <p>Last updated: April 2026</p>
+</section>
+
+<div class="privacy-content">
+
+  <h2>Overview</h2>
+  <p>HourTracker ("we", "our", "the app") is a time tracking application designed for trades workers and their employers. We take your privacy seriously. This policy explains what data we collect, how we use it, and your rights regarding that data.</p>
+
+  <h2>Data We Collect</h2>
+  <p>When you create an account, we collect your email address, full name, and account type (worker or boss). When you use the app, we store your time entries including clock in/out times, break durations, job names, categories, and notes you add.</p>
+  <p>If you enable location tracking, we collect GPS coordinates when you clock in or out. If you attach photos, those images are stored with your time entries. All data is stored securely using Supabase, a cloud database service.</p>
+
+  <h2>How We Use Your Data</h2>
+  <p>Your data is used solely to provide the time tracking service. Time entries, locations, and photos are stored so you can review your work history and share it with your employer if you choose to link your account. We do not sell, rent, or share your personal data with any third parties for marketing or advertising purposes.</p>
+
+  <h2>Boss-Worker Data Sharing</h2>
+  <p>If you are a worker and accept an invitation from a boss, that boss will be able to view your time entries, including hours, job names, categories, notes, attached photos, and location data. You can disconnect from a boss at any time through the app settings. Bosses cannot modify your entries.</p>
+
+  <h2>Data Storage and Security</h2>
+  <p>All data is stored on secure servers provided by Supabase. Data is transmitted using HTTPS encryption. Access to your data is protected by your account credentials. We implement row-level security policies to ensure users can only access data they are authorized to view.</p>
+
+  <h2>Your Rights</h2>
+  <p>You can view all data associated with your account within the app. You can edit or delete individual time entries at any time. You can delete your entire account and all associated data permanently through the app settings. Account deletion removes all your entries, jobs, categories, and profile information.</p>
+
+  <h2>Location Data</h2>
+  <p>Location tracking is optional and controlled by you. You can enable or disable automatic location tracking in the app settings. When enabled, GPS coordinates are captured only at the moment of clocking in or out. We do not track your location in the background or at any other time.</p>
+
+  <h2>Photos</h2>
+  <p>Photos you attach to time entries are stored with your account data. You can delete attached photos at any time by editing the entry. Photos are only visible to you and, if connected, your boss.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>HourTracker is not intended for use by anyone under the age of 16. We do not knowingly collect personal information from children under 16.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>If you have questions about this privacy policy or your data, please contact us through the app or via the contact information provided on our Google Play Store listing.</p>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 HourTracker. All rights reserved. | <a href="index.html">Home</a></p>
+</footer>
+
+</body>
+</html>
