@@ -1,2 +1,2 @@
-hour tracker website
-# hour-tracker 
+TradesClock website
+# TradesClock
